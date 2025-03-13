@@ -1,14 +1,14 @@
 ---
 layout: home
-layoutClass: 'm-home-layout'
+layoutClass: 'kemiao-home-layout'
 
 hero:
-  name: 茂茂物语
-  text: Mao Mao 的成长之路
-  tagline: 知识是进步的阶梯，争取每天都有知识点更新
+  name: 克喵の博客站
+  text: Ke Miao的前端博客，记录学习过程中的一些心得和踩坑经验。
+  tagline: 知识是进步的阶梯，争取每天都有资源更新
   image:
-    src: /logo.png
-    alt: 茂茂物语
+    src: https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/kemeow815@avatar.png
+    alt: 克喵爱吃卤面
   actions:
     - text: 前端物语
       link: /fe/es6/
@@ -20,36 +20,36 @@ hero:
     - text: mmPlayer
       link: https://netease-music.fe-mm.com
       theme: alt
-features:
-  - icon: 📖
-    title: 前端物语
-    details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
-    link: /fe/javascript/types
-    linkText: 前端常用知识
-  - icon: 📘
-    title: 源码阅读
-    details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
-    link: /analysis/utils/only-allow
-    linkText: 源码阅读
-  - icon: 💡
-    title: Workflow
-    details: 在工作中学到的一切<small>（常用库/工具/奇淫技巧等）</small><br />配合 CV 大法来更好的摸鱼
-    link: /workflow/utils/library
-    linkText: 常用工具库
-  - icon: 🧰
-    title: 提效工具
-    details: 工欲善其事，必先利其器<br />记录开发和日常使用中所用到的软件、插件、扩展等
-    link: /efficiency/online-tools
-    linkText: 提效工具
-  - icon: 🐞
-    title: 踩坑记录
-    details: 那些年我们踩过的坑<br />总有一些让你意想不到的问题
-    link: /pit/npm
-    linkText: 踩坑记录
-  - icon: 💯
-    title: 吾志所向，一往无前。
-    details: '<small class="bottom-small">一个想躺平的小开发</small>'
-    link: /mao
+# features:
+#   - icon: 📖
+#     title: 前端物语
+#     details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
+#     link: /fe/javascript/types
+#     linkText: 前端常用知识
+#   - icon: 📘
+#     title: 源码阅读
+#     details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
+#     link: /analysis/utils/only-allow
+#     linkText: 源码阅读
+#   - icon: 💡
+#     title: Workflow
+#     details: 在工作中学到的一切<small>（常用库/工具/奇淫技巧等）</small><br />配合 CV 大法来更好的摸鱼
+#     link: /workflow/utils/library
+#     linkText: 常用工具库
+#   - icon: 🧰
+#     title: 提效工具
+#     details: 工欲善其事，必先利其器<br />记录开发和日常使用中所用到的软件、插件、扩展等
+#     link: /efficiency/online-tools
+#     linkText: 提效工具
+#   - icon: 🐞
+#     title: 踩坑记录
+#     details: 那些年我们踩过的坑<br />总有一些让你意想不到的问题
+#     link: /pit/npm
+#     linkText: 踩坑记录
+#   - icon: 💯
+#     title: 吾志所向，一往无前。
+#     details: '<small class="bottom-small">一个想躺平的小开发</small>'
+#     link: /mao
 ---
 
 <script setup>
@@ -74,17 +74,17 @@ import MFriends from './home/MFriends.vue'
 
 **本站信息**：
 
-- 网站名称: **茂茂物语**
-- 网站描述: **茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等**
-- 网站地址：**<https://notes.fe-mm.com>**
-- 网站图标：**<https://notes.fe-mm.com/logo.png>**
+- 网站名称: **克喵の博客站**
+- 网站描述: **克喵的博客站，包含常用知识、阅读笔记、各种奇淫技巧、日常提效工具等**
+- 网站地址：**<https://notes.kemeow.top>**
+- 网站图标：**<https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/logo.webp>**
 
 ```json
 {
-  "title": "茂茂物语",
-  "desc": "茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等",
-  "link": "https://notes.fe-mm.com",
-  "icon": "https://notes.fe-mm.com/logo.png"
+  "title": "克喵の博客站",
+  "desc": "克喵的博客站，包含常用知识、阅读笔记、各种奇淫技巧、日常提效工具等",
+  "link": "https://notes.kemeow.top",
+  "icon": "https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/logo.webp"
 }
 ```
 
@@ -104,6 +104,6 @@ import MFriends from './home/MFriends.vue'
 .m-home-layout .item:last-child .details {
   display: flex;
   justify-content: flex-end;
-  align-items: end;
+  align-items: flex-end instead;
 }
 </style>

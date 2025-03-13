@@ -11,8 +11,8 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: '茂茂物语',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  title: '克喵の博客站',
+  description: '克喵的博客，致力于分享资源和生活，欢迎访问~',
   head,
 
   lastUpdated: true,
@@ -31,7 +31,7 @@ export default defineConfig({
   themeConfig: {
     i18nRouting: false,
 
-    logo: '/logo.png',
+    logo: 'https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/logo.webp',
 
     nav,
     sidebar,
@@ -42,11 +42,11 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Kemeow815' }],
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: 'Copyright © 2019-present maomao',
+      copyright: 'Copyright © 2025-present 克喵爱吃卤面',
     },
 
     lastUpdated: {
@@ -73,7 +73,7 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'maomao1996.notes',
+      badgeId: 'kemiao.notes',
     },
 
     comment: {
@@ -86,7 +86,7 @@ export default defineConfig({
 
   /* 生成站点地图 */
   sitemap: {
-    hostname: 'https://notes.fe-mm.com/',
+    hostname: 'https://notes.kemeow.top',
   },
 
   vite: {
